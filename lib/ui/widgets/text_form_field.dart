@@ -54,7 +54,7 @@ Widget defaultFormField(
           hintTextDirection: TextDirection.rtl,
         border: OutlineInputBorder( borderRadius:BorderRadius.circular(5)),
           isDense: true,                      // Added this
-          contentPadding: EdgeInsets.all(10),
+          contentPadding: const EdgeInsets.all(10),
 
 
         hintText:hintText ,

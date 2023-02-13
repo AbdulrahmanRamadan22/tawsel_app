@@ -36,7 +36,7 @@ class Tawsel extends StatelessWidget {
         primaryColor: const Color(0xffFF6600),
 
     ),
-      home:const PasswordChange(),
+      home: SliderIntro(),
     );
   }
 }
