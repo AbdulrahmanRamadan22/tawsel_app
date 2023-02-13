@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'ui/screens/slider_intro/slider_intro.dart';
-import 'ui/screens/splash/splash.dart';
+
+import 'ui/views/password _change/password _change.dart';
+import 'ui/views/slider_intro/slider_intro.dart';
 
 void main() {
   runApp(const Tawsel());
@@ -15,8 +16,8 @@ class Tawsel extends StatelessWidget {
   Widget build(BuildContext context) {
 
     SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
-      statusBarBrightness: Brightness.light,
-      statusBarIconBrightness: Brightness.light,
+      statusBarBrightness: Brightness.dark,
+      statusBarIconBrightness: Brightness.dark,
       statusBarColor: Colors.transparent,
 
     ));
@@ -35,7 +36,7 @@ class Tawsel extends StatelessWidget {
         primaryColor: const Color(0xffFF6600),
 
     ),
-      home:const SplashScreen()
+      home:const PasswordChange(),
     );
   }
 }
